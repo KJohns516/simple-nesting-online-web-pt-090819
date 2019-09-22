@@ -6,6 +6,7 @@ describe "nested hash" do
     it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
       expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
         programmer_hash "don't re-write the hash with the new value!"
+          my_hash = {:languages}
 
     end
   end
